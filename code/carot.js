@@ -63,6 +63,8 @@ function transcrire() {
     car = car.replace(/A/g, "إ");
     car = car.replace(/ءا/g, "أ");
     car = car.replace(/_/g, "ـ");
+    car = car.replace(/ə/g, "ZZ");
+
 
     car = car.replace(/\?/g, "؟");
     car = car.replace(/\;/g, "؛");
